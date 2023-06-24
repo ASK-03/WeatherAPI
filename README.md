@@ -22,7 +22,7 @@ The technologies utilized in the tool's development are:
 ## Installation
 
 To install and use WeatherAPI, follow the steps given below:
-- Fork the carrer-scraper repository by clicking the "Fork" button at the top right corner of the repository page. This will create a copy of the repository under your GitHub account.
+- Fork the weatherAPI repository by clicking the "Fork" button at the top right corner of the repository page. This will create a copy of the repository under your GitHub account.
 - Clone the forked repository to your local machine:
   ```
   git clone https://github.com/{YOUR-USERNAME}/WeatherAPI   
@@ -48,15 +48,15 @@ To use WeatherAPI, follow the steps given below:
     ```
 - Run the command-line tool and provide the name of the location for which you want to retrieve the weather forecast.
   ```
-    python3 copilot.py --location LOCATION --unit UNIT
+    python3 weatherapi.py --location LOCATION --unit UNIT
     ```
 
   Example:
     ```
-    python3 copilot.py --location london --unit C
+    python3 weatherapi.py --location london --unit C
     ```
     ```
-    python3 copilot.py --location "New York" --unit F
+    python3 weatherapi.py --location "New York" --unit F
     ```
     Default temperature unit is K (Kelvin).
 
@@ -80,7 +80,7 @@ Some other helpful and cool features:
 
 - **Debug**: Good news for programmers, it has a ``--debug`` option that you can turn on to get **DEBUG** level logging in log file named **app.log**. Default it gives **WARNING** level logging.
   ```
-  python3 scraper.py --debug True
+  python3 weatherapi.py --debug True
   ```
   **NOTE:** The default logging is set to **WARNING** 
 
